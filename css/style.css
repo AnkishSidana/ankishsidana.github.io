@@ -3,9 +3,15 @@ html, body {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	font-family: sans-serif;
+	font-family:  sans-serif;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+
+}
+
+@font-face {
+    font-family: "Anurati";
+    src: url("../Anurati-Regular.otf") format("opentype");
 }
 body {
 
@@ -37,7 +43,9 @@ body {
 	left: 50%;
 	color: white;
 	z-index: 2;
-	font-family: 'Great Vibes', cursive;
+	/*font-family: 'Great Vibes', cursive;*/
+		font-family: "Anurati";
+
 }
 .circle h1 span {
 	font-size: 50px;
@@ -131,7 +139,7 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	height: 100vh;
-	padding: 30px;
+	padding: 20px;
 	background-color: #2B2A30;
 	scroll-snap-align: start;
 }
@@ -140,6 +148,7 @@ body {
 	font-size: 24px;
 	font-weight: lighter;
 	color: white;
+	/*margin: 5px;*/
 }
 #second hr {
 	position: relative;
@@ -147,11 +156,11 @@ body {
 	width: 80px;
 	height: 2px;
 	background-color: #FF0000;
-	margin-bottom: 4%;
+	/*margin-bottom: 4%;*/
 	border: none;
 }
 #second p {
-	width: 70%;
+	width: 90%;
 	text-align: justify;
 	margin: 0 auto;
 	font-size: 16px;
@@ -160,16 +169,16 @@ body {
 	font-family: serif;
 }
 #second div {
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	margin: 0 auto;
-	margin-top: 3%;
+	margin-top: 2%;
 	background-color: #000;
 }
 #second img {
 	border-radius: 5px;
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 }
 #third {
 	width: 100%;
